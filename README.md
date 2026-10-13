@@ -33,7 +33,7 @@ The method consists of four stages:
 </p>
 
 <p align="center">
-  <img src="assets/results/scienceworld_tau2_main_results.png" width="60%" alt="Main results on ScienceWorld and Tau2-Bench">
+  <img src="assets/results/scienceworld_tau2_main_results.png" width="75%" alt="Main results on ScienceWorld and Tau2-Bench">
 </p>
 
 ## 🛠️ Setup
