@@ -124,9 +124,6 @@ RUN_KIND=smoke conda run -n skillscaffold-tau --no-capture-output \
 
 Set the checkpoint to evaluate in `.env`, then choose one benchmark to start evaluation:
 
-WebShop evaluation runs only the target task without retrieval or skill injection.
-Its `win_rate` and `win_rate_no_skill` metrics report the same no-skill success rate,
-with overall and per-task-type results.
 
 ```bash
 conda run -n skillscaffold-main --no-capture-output bash benchmarks/alfworld/scripts/eval.sh
@@ -153,4 +150,4 @@ We thank the authors and maintainers of the following projects:
 
 ## 📄 License
 
-The project code is licensed under the [Apache License 2.0](LICENSE). The bundled Slime snapshots retain their upstream license notices. Benchmarks, datasets, environments, and model weights remain subject to their respective original licenses.
+[Apache License 2.0](LICENSE)
