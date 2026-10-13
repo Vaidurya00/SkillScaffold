@@ -1,0 +1,13 @@
+SkillScaffold
+Copyright 2026 SkillScaffold contributors
+
+This distribution includes modified snapshots of THUDM/slime, licensed under
+the Apache License 2.0. The snapshot directories retain upstream LICENSE files
+where supplied.
+
+ALFWorld, WebShop, Tau-bench, ScienceWorld, TextWorld, Fast Downward, Qwen,
+Megatron-LM, Ray, and SGLang are third-party projects with their own licenses
+and terms. Model weights and raw benchmark assets are not redistributed by this
+repository. Separate Tau training datasets may be released on Hugging Face as
+described in README.md. Users are responsible for complying with
+the applicable licenses and terms.

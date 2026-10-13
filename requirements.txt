@@ -1,0 +1,10 @@
+# Core utilities used by the adapters and release checks. The benchmark setup
+# entry point installs the CUDA backend, Megatron-LM, Slime, and task packages.
+httpx>=0.27
+huggingface_hub>=0.25
+numpy>=1.26
+pandas>=2.2
+pyarrow>=19.0
+PyYAML>=6.0
+requests>=2.31
+tenacity>=8.2

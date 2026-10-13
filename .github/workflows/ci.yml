@@ -1,0 +1,22 @@
+name: release-checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  static-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Release audit
+        run: python scripts/audit_release.py
+      - name: Python syntax
+        run: python -m compileall -q benchmarks integrations framework scripts
+      - name: Shell syntax
+        run: bash scripts/check_shell.sh
+      - name: Default configuration contracts
+        run: python -m unittest discover -s tests -v

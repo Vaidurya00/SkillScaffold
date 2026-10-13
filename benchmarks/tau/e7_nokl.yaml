@@ -1,0 +1,6 @@
+n_experiences: 4
+retrieval_topk: 1
+executor_temperature: 0.7
+generator_reward_weight: 0.1
+executor_reward_weight: 1.0
+skill_format_penalty: 1.0

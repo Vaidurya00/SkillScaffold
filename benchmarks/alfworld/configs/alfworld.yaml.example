@@ -1,0 +1,24 @@
+dataset:
+  data_path: REPLACE_WITH_ALFWORLD_ROOT/task_files/json_2.1.1/train
+  eval_id_data_path: REPLACE_WITH_ALFWORLD_ROOT/task_files/json_2.1.1/valid_seen
+  eval_ood_data_path: REPLACE_WITH_ALFWORLD_ROOT/task_files/json_2.1.1/valid_unseen
+  num_train_games: -1
+  num_eval_games: -1
+logic:
+  domain: REPLACE_WITH_ALFWORLD_ROOT/task_files/logic/alfred.pddl
+  grammar: REPLACE_WITH_ALFWORLD_ROOT/task_files/logic/alfred.twl2
+env:
+  type: AlfredTWEnv
+  domain_randomization: false
+  task_types: [1, 2, 3, 4, 5, 6]
+  expert_timeout_steps: 150
+  expert_type: handcoded
+general:
+  training_method: dagger
+  random_seed: 42
+dagger:
+  training:
+    max_nb_steps_per_episode: 50
+rl:
+  training:
+    max_nb_steps_per_episode: 50

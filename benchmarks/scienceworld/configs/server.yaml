@@ -1,0 +1,13 @@
+scienceworld_concurrency: 32
+scienceworld_env_url: http://127.0.0.1:23000
+scienceworld_generator_max_response_len: 900
+scienceworld_log_dir: outputs/logs/scienceworld
+scienceworld_num_workers: 32
+scienceworld_pid_file: outputs/run/scienceworld/server_pids.json
+scienceworld_router_host: 0.0.0.0
+scienceworld_router_port: 23000
+scienceworld_simplification: easy
+scienceworld_startup_timeout: 900
+scienceworld_worker_host: 127.0.0.1
+scienceworld_worker_start_port: 23101
+webshop_generator_max_response_len: 900
