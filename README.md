@@ -4,6 +4,7 @@
 
 ### Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection
 
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2610.18807-b31b1b)](https://arxiv.org/pdf/2610.18807)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](#%EF%B8%8F-setup)
 [![Tau RL Data](https://img.shields.io/badge/%F0%9F%A4%97%20Data-Tau%20RL-yellow)](https://huggingface.co/datasets/wwwenlin/skillscaffold-tau-rl)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green.svg)](LICENSE)
@@ -135,7 +136,19 @@ conda run -n skillscaffold-tau-eval --no-capture-output bash benchmarks/tau/scri
 
 ## ⭐ Citation
 
-The paper is currently under anonymous review. Author information and the final BibTeX entry will be added after the anonymous review period.
+If you use SkillScaffold in your research, please cite our paper:
+
+```bibtex
+@misc{zhong2026skillscaffoldscaffoldingagenticreinforcement,
+      title={SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection},
+      author={Wenlin Zhong and Hao Wang and Kun Yuan and Fan Yang and Jinluan Yang and Dian Jin and Xu Tan and Yiquan Wu and Kun Kuang},
+      year={2026},
+      eprint={2610.18807},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.18807},
+}
+```
 
 ## 🔗 Related Projects
 
